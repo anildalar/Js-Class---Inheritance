@@ -1,0 +1,88 @@
+JS Foundation Day 7.5
+
+What is a Class in JS?
+
+OOPs (Object Oriented programing)
+
+1. Inheritance
+
+Class is like a template/container of some members
+
+1. Properties
+2. Constructor
+3. Methods/Functions
+
+
+Back Day software were made using procedurarl programing concept i.e functions
+
+
+
+A (Parent/Base/Super)
+
+		B (xld/Derived/SubClass)
+
+The basic sytax of declerating a class
+
+class <ClassName>{
+			//1. Properties
+
+			//2. Constructor
+
+			//3. Method
+}
+
+1. How to define a function/method in a class
+2. How to call a method inside in a class
+3. How to call a method outside a class
+
+		3.1 Create the object of the class (Outside of the class)
+				let object = new ClassName();
+
+		3.2 With the help of object you can access the members
+				
+				object.member
+
+Objects
+
+			1. JS Objects  {}
+			2. JS Class object
+
+
+You you want to call a member you need a class object
+
+
+Class object
+
+There are 2 types of class Object
+
+1. Internal Class Object
+			this
+2. External Class Object
+			let myobject = new A();
+			myobject is external class object
+
+
+ES6  2015 
+			1. let
+			2. const
+			3. fat arrow
+			4. class 
+
+
+Inheritance Assingments
+
+
+A
+		B
+				C
+
+							.....
+												Z
+
+// You will create the object of Z class
+			
+
+
+
+
+
